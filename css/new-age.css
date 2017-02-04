@@ -151,11 +151,13 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), #E0A403;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #E0A403, #5C5C5D);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+ /* background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);*/
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #E0A403, #5C5C5D);
+ 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -190,7 +192,7 @@ header .device-container .screen img {
 }
 @media (min-width: 768px) {
   header {
-    min-height: 30%;
+    min-height: 20%;
   }
   header .header-content {
     text-align: left;
@@ -219,7 +221,7 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 section h2 {
   font-size: 50px;
@@ -344,10 +346,10 @@ section.contact ul.list-social {
 }
 section.contact ul.list-social li a {
   display: block;
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
-  font-size: 40px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 20px;
   border-radius: 100%;
   color: white;
 }
@@ -396,6 +398,19 @@ footer ul li a.active {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539);
+}
+.bg-primaryimg {
+ 
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/img1.jpg');
+
+  padding: 250px 0;
+  color:#FFFFFF;
 }
 .text-primary {
   color: #fdcc52;
